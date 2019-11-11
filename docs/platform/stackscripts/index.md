@@ -278,6 +278,7 @@ Below is an example implementation of the UDF variables. Note that the UDF tags 
 
 {{< note >}}
 If you would like to create a masked password input field, use the word 'password' anywhere in the UDF name.
+Note to define the environment variable in the script place a '#' line after the UDF tag line with `ENV_VARIABLE_NAME=`.
 {{< /note >}}
 
 There are also a set of Linode created environmental variables that can be used for API calls or other tasks from within the script.
